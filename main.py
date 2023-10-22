@@ -10,6 +10,7 @@ import numpy as np
 ## Initial Population
 N = 10 # N is the number of genome in a chromosome of an Individual. It will also be used as a random.randint(1, N) for a crossover point.
 P = 4 # P is the size of the population.
+MUTRATE = 4 # Mutation rate of the ?
 
 class Individual:    
     def __init__(
